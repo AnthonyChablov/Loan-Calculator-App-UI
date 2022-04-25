@@ -51,7 +51,6 @@ function calcResults(){
         document.getElementById('img-loading').style.display='none';
     }else{
         displayError('Please enter valid number in all fields');
-        
         document.getElementById('img-loading').style.display='none';
     }
 };
