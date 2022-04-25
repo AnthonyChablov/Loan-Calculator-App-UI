@@ -1,4 +1,25 @@
-
+.bg-body{
+    background-color: #333333;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    
+}
+.title{
+    padding:0 0 9.5px 0;
+}
+.card{
+    background-color: white;
+    color: #333333;
+}
 .result{
     padding-bottom: 15px;
+    padding-top: 1px;
+}
+#loading{
+    display: none;
+}
+#results{
+    display: none;
 }
