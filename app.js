@@ -9,4 +9,4 @@ let loanForm = document.querySelector('#loan-form');
 loanForm.addEventListener(('click'), ((e)=>{
     console.log(e.type);
     e.preventDefault();
-}))
+}));
